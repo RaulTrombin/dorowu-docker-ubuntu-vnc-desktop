@@ -1,4 +1,5 @@
-FROM resin/rpi-raspbian:jessie
+# FROM resin/rpi-raspbian:jessie
+FROM balenalib/rpi-raspbian:jessie-20210521
 
 # Setup demo environment variables
 ENV HOME=/root \
